@@ -53,7 +53,7 @@ const Carousel = () => {
 					</button>
 				</div>
 
-				<div className='absolute sm:bottom-72 sm:left-8  bottom-10 right-20 flex space-x-2'>
+				<div className='absolute sm:bottom-80 sm:left-8  bottom-10 right-20 flex space-x-2'>
 					<button
 						onClick={handlePrev}
 						className='w-10 h-10 flex justify-center items-center border-2 text-white rounded-full shadow-lg'
