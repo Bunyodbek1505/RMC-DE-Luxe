@@ -87,7 +87,7 @@ const Header = () => {
 
 			{/* Mobile Header */}
 			{isOpenMenu && (
-				<div className='absolute top-0 right-0 z-40 sm:w-[350px] md:w-[400px] bg-white h-screen'>
+				<div className='absolute top-0 right-0 z-40 sm:w-[300px] md:w-[400px] bg-white h-screen'>
 					<div>
 						{/* select */}
 						<ul className='flex justify-end p-5 gap-3'>
