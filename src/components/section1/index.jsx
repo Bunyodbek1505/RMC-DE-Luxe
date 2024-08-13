@@ -73,7 +73,7 @@ const Section1 = () => {
 								<button
 									key={index}
 									onClick={() => setActiveData(index)}
-									className={`text-lg pb-2 ${
+									className={`sm:text-sm text-lg pb-2 ${
 										activeData === index
 											? 'text-orange-500 border-orange-500 border-b-2'
 											: 'text-gray-500'
@@ -83,7 +83,7 @@ const Section1 = () => {
 								</button>
 							))}
 						</div>
-						<div className='mt-4 text-gray-700 leading-relaxed sm:w-full w-[600px]'>
+						<div className='mt-4 text-gray-700 leading-relaxed sm:w-full sm:text-[15px] w-[600px]'>
 							<p>{infoData[activeData].content}</p>
 						</div>
 					</div>
